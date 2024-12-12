@@ -13,8 +13,7 @@ h1{
     color: rgb(255,255,255);
 }
 main{
-    padding: 10px;
-    margin: 10px;
+    padding: 10px 10px;
 }
 #parent{
     display: flex;
@@ -61,6 +60,7 @@ footer a:hover{
 @media  screen and (max-width:768px){
     h2{
         font-size: 30px;
+    }
     p{
         font-size: 25px;
     }
@@ -68,4 +68,15 @@ footer a:hover{
         display: flex;
         flex-direction: column;
     }
+}   @media  screen and (min-width:769px){
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 25px;
+    }
+    #parent{
+        display: flex;
+        flex-direction: row;}
+        
 }
